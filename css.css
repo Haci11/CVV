@@ -1,5 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#background{
+  background-image: url(https://i.pinimg.com/originals/ef/7f/b1/ef7fb1b37078b6a2aef8e40710446bfa.jpg);
+  height: 100vh;
+  width: 100vw;
+}
 #box{
   margin: auto;
   height: 70vh;
   width: 50vw;
+  border: red solid 2px;
+}
+#sidbar{
+  float: left;
+  background-color: blue;
+  height: 70vh;
+  width: 15vw;
+  position: absolute;
+}
+#header{
+  background-color: green;
+  height: 15vh;
+  width: 35vw;
+  float: right;
+}
+#content{
+  background-color: yellow;
+  height: 40vh;
+  width: 35vw;
+  float: right;
+}
+#footer{
+  background-color: black;
+  height: 15vh;
+  width: 35vw;
+  float: right;
 }
